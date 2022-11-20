@@ -1,0 +1,107 @@
+/* Footer styles */
+.footer-wrapper {
+    background-color: #87a0af;
+    color: #fff5d7;
+    font-family: "Ubuntu Condensed", sans-serif; 
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    column-count: 3;
+    height: 420px;
+    margin-top: -4px;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    
+}
+
+.footer-wrapper > .logo img {
+    width: 169px;
+    height: 100%;
+    filter: brightness(100%);
+}
+
+/* Right column styles */
+.footer-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.footer-wrapper > .right-column > .icon {
+    margin-right: 15px;
+}
+
+.footer-wrapper > .right-column > .contact-hours-footer span {
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.footer-wrapper > .right-column > .contact-hours-footer > .time {
+    font-size: .8em;
+    color: #697855;
+    text-transform: uppercase;
+}
+
+.footer-wrapper > .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer-wrapper > .social-wrapper {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrapper > .social-wrapper a {
+    font-size: 1.5em;
+    color: #fff5d7;
+    transition: 0.5s;
+}
+
+.footer-wrapper > .social-wrapper a:hover {
+    color: #c8af7d;
+}
+
+.footer-wrapper > .copyright {
+    color: #858585;
+    font-size: 70%;
+    margin-bottom: 42px;
+}
+
+/* Center column styles */
+.footer-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+/* Left column styles */
+.footer-wrapper > .left-column {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    float: left;
+    width: 33%;
+}
+
+.footer-wrapper > .left-column > .address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.footer-wrapper > .left-column > .address-wrapper a {
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
