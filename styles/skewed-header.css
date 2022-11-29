@@ -1,7 +1,7 @@
 /* skewed header */
 .skewed-header {
     position: relative;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -15,9 +15,9 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;    
-    transform: skewY(-5deg);
+    transform: skewY(0deg);
     transform-origin: top left;
-    filter: brightness(69%);
+    filter: brightness(80%);
 }
 
 .skewed-header > .skewed-header-wrapper {

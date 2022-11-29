@@ -28,7 +28,7 @@
     padding: 42px;
 }
 
-.square > .square-text-wrapper h1 {
+.square > .square-text-wrapper h1, h2 {
     color: #c8af7d;
 }
 
