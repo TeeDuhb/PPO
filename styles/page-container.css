@@ -19,3 +19,8 @@
     letter-spacing: 1px;
     line-height: 30px;
 }
+
+.page-container > .content-wrapper h1 {
+    color: #c8af7d;
+    text-align: center;
+}
